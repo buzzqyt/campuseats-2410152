@@ -154,3 +154,14 @@ a.card:hover { border-color: var(--green-light); }
   .nav { flex-wrap: wrap; gap: 0.4rem 1rem; font-size: 0.95rem; }
   .container { padding: 1rem; }
 }
+
+/* Week 2 additions */
+.vendor-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(280px,
+1fr)); gap: 1rem; }
+button.card { font: inherit; color: inherit; text-align: left; border: 2px solid
+transparent; cursor: pointer; width: 100%; }
+button.card:hover { border-color: var(--green-light); }
+.vendor-card.selected { border-color: var(--green); }
+.card h3 { font-size: 1.05rem; }
+.tag { display: inline-block; margin: 0 0 0.3rem; padding: 0.05rem 0.5rem; border-radius: 999px; background: var(--green-light); color: var(--green); font-size:
+0.75rem; font-weight: 600; }
