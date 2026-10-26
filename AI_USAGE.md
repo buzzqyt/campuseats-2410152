@@ -10,7 +10,7 @@ Add a new section every week, before you tag. Did not use AI? Write "None" under
 - One thing the AI got wrong and how I fixed it:
 
 ## Week 2
-- Tool(s): None
-- What I asked for:
-- What I kept, changed or rejected, and why:
-- One thing the AI got wrong and how I fixed it:
+- Tool(s): Gemini
+- What I asked for: How to fix the UI showing same menu for both Kafe Mahallah Salahuddin and Kafe Mahallah Aminah
+- What I kept, changed or rejected, and why: I changed the hard-coded object inside MenuItemCard.jsx file because I am now passing item as a prop in the function signature ({ item, onAdd })
+- One thing the AI got wrong and how I fixed it: It said the problem is typo in VendorCard.jsx when actually there is no typo at all.
