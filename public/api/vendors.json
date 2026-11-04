@@ -1,0 +1,64 @@
+[
+  {
+    "id": "2410152-kafe-salahuddin",
+    "name": "Kafe Mahallah Salahuddin",
+    "location": "Mahallah Salahuddin, Ground Floor",
+    "openHours": "7:00 am - 10:00 pm",
+    "isOpen": true,
+    "menu": [
+      { "id": "2410152-salah-1", "name": "Nasi Goreng", "description": "Fried rice with vegetables and meat", "price": 7.5, "category": "Rice", "available": true },
+      { "id": "2410152-salah-2", "name": "Mie Goreng", "description": "Fried noodles with vegetables and meat", "price": 6.0, "category": "Noodles", "available": true },
+      { "id": "2410152-salah-3", "name": "Sirap ais", "description": "Cold syrup drink", "price": 2.5, "category": "Drinks", "available": false },
+      { "id": "2410152-salah-4", "name": "Nasi Lemak Ayam", "description": "Fragrant coconut rice with fried chicken, anchovies, peanuts, and sambal", "price": 8.5, "category": "Rice", "available": true },
+      { "id": "2410152-salah-5", "name": "Kuey Teow Goreng", "description": "Stir-fried flat rice noodles with egg, bean sprouts, and chives", "price": 6.5, "category": "Noodles", "available": true },
+      { "id": "2410152-salah-6", "name": "Teh Tarik", "description": "Malaysian style pulled milk tea", "price": 2.8, "category": "Drinks", "available": true },
+      { "id": "2410152-salah-7", "name": "Roti Canai Kosong", "description": "Flaky flatbread served with dhal and sambal", "price": 1.5, "category": "Breakfast", "available": true },
+      { "id": "2410152-salah-8", "name": "Roti Telur", "description": "Flatbread stuffed with egg and onions", "price": 3.0, "category": "Breakfast", "available": true }
+    ]
+  },
+  {
+    "id": "2410152-kafe-aminah",
+    "name": "Kafe Mahallah Aminah",
+    "location": "Mahallah Aminah, Ground Floor",
+    "openHours": "8:00 am - 9:00 pm",
+    "isOpen": true,
+    "menu": [
+      { "id": "2410152-ami-1", "name": "Nasi Ayam Penyet", "description": "Smashed fried chicken with sambal and rice", "price": 9.0, "category": "Rice", "available": true },
+      { "id": "2410152-ami-2", "name": "Air Bandung", "description": "Rose syrup with milk", "price": 3.0, "category": "Drinks", "available": true }
+    ]
+  },
+  {
+    "id": "2410946-kafe-heal",
+    "name": "Kafe Heal",
+    "location": "Student Centre, Level 1",
+    "openHours": "8:00 am - 8:00 pm",
+    "isOpen": true,
+    "menu": [
+      { "id": "2410946-heal-1", "name": "Grilled Chicken Salad", "description": "Fresh lettuce, cherry tomatoes, cucumbers, and tender grilled chicken breast with vinaigrette", "price": 9.5, "category": "Salad", "available": true },
+      { "id": "2410946-heal-2", "name": "Quinoa Power Bowl", "description": "Organic quinoa, roasted sweet potatoes, chick peas, avocado, and tahini dressing", "price": 11.0, "category": "Bowls", "available": true },
+      { "id": "2410946-heal-3", "name": "Avocado Toast", "description": "Sourdough bread topped with mashed avocado, poached egg, and chili flakes", "price": 8.0, "category": "Breakfast", "available": true },
+      { "id": "2410946-heal-4", "name": "Green Detox Smoothie", "description": "Spinach, green apple, cucumber, lemon, and celery blended fresh", "price": 6.5, "category": "Smoothies", "available": true },
+      { "id": "2410946-heal-5", "name": "Berry Blast Smoothie", "description": "Blueberries, strawberries, raspberries, yogurt, and honey", "price": 7.0, "category": "Smoothies", "available": true },
+      { "id": "2410946-heal-6", "name": "Salmon Wrap", "description": "Smoked salmon, cream cheese, lettuce, and capers wrapped in a whole wheat tortilla", "price": 10.5, "category": "Wraps", "available": true },
+      { "id": "2410946-heal-7", "name": "Overnight Oats", "description": "Rolled oats soaked in almond milk with chia seeds, honey, and fresh fruits", "price": 5.5, "category": "Breakfast", "available": true },
+      { "id": "2410946-heal-8", "name": "Lemon Mint Infusion", "description": "Chilled filtered water infused with fresh lemon slices and mint leaves", "price": 3.0, "category": "Drinks", "available": true }
+    ]
+  },
+  {
+    "id": "2416428-deli-desserts",
+    "name": "Deli Desserts",
+    "location": "Administrative Building, Ground Floor",
+    "openHours": "10:00 am - 10:00 pm",
+    "isOpen": true,
+    "menu": [
+      { "id": "2416428-deli-1", "name": "Classic New York Cheesecake", "description": "Rich and creamy baked cheesecake with a buttery graham cracker crust", "price": 8.5, "category": "Cakes", "available": true },
+      { "id": "2416428-deli-2", "name": "Molten Lava Chocolate Cake", "description": "Warm chocolate cake with a gooey, flowing chocolate ganache center", "price": 9.0, "category": "Cakes", "available": true },
+      { "id": "2416428-deli-3", "name": "Matcha Crepe Cake", "description": "Layered delicate French crepes filled with lightly sweetened Japanese matcha cream", "price": 10.0, "category": "Cakes", "available": true },
+      { "id": "2416428-deli-4", "name": "Assorted Macarons", "description": "Box of 4 delicate French almond meringue cookies with assorted flavored fillings", "price": 7.5, "category": "Pastries", "available": true },
+      { "id": "2416428-deli-5", "name": "Almond Butter Croissant", "description": "Flaky, buttery croissant filled and topped with sweet almond frangipane", "price": 6.0, "category": "Pastries", "available": true },
+      { "id": "2416428-deli-6", "name": "Vanilla Bean Gelato", "description": "Artisanal Italian-style ice cream made with real Madagascar vanilla beans", "price": 6.5, "category": "Gelato", "available": true },
+      { "id": "2416428-deli-7", "name": "Dark Chocolate Gelato", "description": "Intense, velvety gelato crafted from high-percentage dark cocoa", "price": 6.5, "category": "Gelato", "available": true },
+      { "id": "2416428-deli-8", "name": "Iced Spanish Latte", "description": "Espresso layered with fresh milk and sweetened condensed milk over ice", "price": 7.0, "category": "Beverages", "available": true }
+    ]
+  }
+]
