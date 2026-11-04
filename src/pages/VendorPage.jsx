@@ -1,14 +1,14 @@
-import { useState } from 'react'
 import { useParams } from 'react-router'
 import MenuList from '../components/MenuList.jsx'
 import { ErrorMessage, Loading } from '../components/Status.jsx'
+import { useLocalStorage } from '../hooks/useLocalStorage.js'
 import VendorStatus from '../components/VendorStatus.jsx'
 import { useVendors } from '../hooks/useVendors.js'
 
 function VendorPage() {
   const { id } = useParams()
   const { vendors, loading, error, reload } = useVendors()
-  const [sortBy, setSortBy] = useState('popular')
+  const [sortBy, setSortBy] = useLocalStorage('campuseats-menu-sort', 'popular')
 
   if (loading) return <Loading />
   if (error) return <ErrorMessage message={error} onRetry={reload} />
