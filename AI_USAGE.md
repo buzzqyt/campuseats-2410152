@@ -21,3 +21,8 @@ Add a new section every week, before you tag. Did not use AI? Write "None" under
 - What I kept, changed or rejected, and why: I added a square bracket (]) because it was missing
 - One thing the AI got wrong and how I fixed it: none
 
+## Week 4
+- Tool(s): Gemini
+- What I asked for: How to add personal feature
+- What I kept, changed or rejected, and why: I added sorting menu items by popularity or price, and saved the selected sort in local storage so it stays selected after refreshing or navigating between vendors.
+- One thing the AI got wrong and how I fixed it: none
